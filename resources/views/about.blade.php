@@ -61,9 +61,9 @@
             </div>
             <div class="col-sm-6 col-lg-3">
                 <div class="hover-team">
-                    <div class="our-team"> <img src="{{ asset('vendor/images/img-1.jpg') }}" alt="" />
+                    <div class="our-team"> <img src="" alt="" />
                         <div class="team-content">
-                            <h3 class="title">Williamson</h3> <span class="post">Web Developer</span> </div>
+                            <h3 class="title">Richard</h3> <span class="post">Web Developer</span> </div>
                         <ul class="social">
                             <li>
                                 <a href="#" class="fab fa-facebook"></a>
@@ -87,9 +87,9 @@
             </div>
             <div class="col-sm-6 col-lg-3">
                 <div class="hover-team">
-                    <div class="our-team"> <img src="{{ asset('vendor/images/img-2.jpg') }}" alt="" />
+                    <div class="our-team"> <img src="" alt="" />
                         <div class="team-content">
-                            <h3 class="title">Kristiana</h3> <span class="post">Web Developer</span> </div>
+                            <h3 class="title">Zandric</h3> <span class="post">Web Developer</span> </div>
                         <ul class="social">
                             <li>
                                 <a href="#" class="fab fa-facebook"></a>
@@ -113,9 +113,9 @@
             </div>
             <div class="col-sm-6 col-lg-3">
                 <div class="hover-team">
-                    <div class="our-team"> <img src="{{ asset('vendor/images/img-3.jpg') }}" alt="" />
+                    <div class="our-team"> <img src="" alt="" />
                         <div class="team-content">
-                            <h3 class="title">Steve Thomas</h3> <span class="post">Web Developer</span> </div>
+                            <h3 class="title">Rudi</h3> <span class="post">Web Developer</span> </div>
                         <ul class="social">
                             <li>
                                 <a href="#" class="fab fa-facebook"></a>
@@ -139,9 +139,9 @@
             </div>
             <div class="col-sm-6 col-lg-3">
                 <div class="hover-team">
-                    <div class="our-team"> <img src="{{ asset('vendor/images/img-1.jpg') }}" alt="" />
+                    <div class="our-team"> <img src="" alt="" />
                         <div class="team-content">
-                            <h3 class="title">Williamson</h3> <span class="post">Web Developer</span> </div>
+                            <h3 class="title">Romer</h3> <span class="post">Web Developer</span> </div>
                         <ul class="social">
                             <li>
                                 <a href="#" class="fab fa-facebook"></a>
