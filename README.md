@@ -62,3 +62,60 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# Nutri-Web-App
+
+## Installation
+
+Before you use the Nutri-Web-App make sure that you install it in your computer.
+
+* First open your git bash and clone this reporsitory
+
+```bash
+git clone https://github.com/rchrdgigan/SorSu.Glitch-Nutri-Hackathon.git
+```
+
+* Second to change your working directory
+
+```bash
+cd SorSu.Glitch-Nutri-Hackathon
+```
+
+* Third to install the laravel dependencies and libraries required
+
+```bash
+composer install
+```
+
+* Fourth to copy the environment file and change the values according to your development environment
+
+```bash
+cp .env.example .env
+```
+
+* To generate laravel key
+
+```bash
+php artisan key:generate
+```
+
+* To migrate and seed the database
+
+> Note! make it sure that you have already created a database before doing this and assign it to your .env file
+
+```bash
+php artisan migrate --seed
+```
+
+* Create the symbolic links configured for the application
+
+```bash
+php artisan storage:link
+```
+
+* Done! Now you can run the webapp with executing this command.
+
+```bash
+php artisan serve
+```
+
