@@ -103,9 +103,17 @@ php artisan key:generate
 
 > Note! make it sure that you have already created a database before doing this and assign it to your .env file
 
+
 ```bash
 php artisan migrate --seed
 ```
+
+> Note! if you already migrate the database and you want to re-migrate cause you have changes in database then try this command, it will drop all database tables regardless of their prefix.
+
+```bash
+php artisan migrate:fresh --seed
+```
+
 
 * Create the symbolic links configured for the application
 
