@@ -20,7 +20,7 @@
 
     <!-- Custom styling plus plugins -->
     <link href="{{ asset('gentelella/build/css/custom.min.css') }}" rel="stylesheet">
-
+    @stack('custom-link')
     <link href="cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
     <!-- iCheck -->
     <link href="{{ asset('gentelella/vendors/iCheck/skins/flat/green.css') }}" rel="stylesheet">
@@ -112,6 +112,7 @@
 
 
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    @stack('custom-scripts')
 
 </body>
 </html>

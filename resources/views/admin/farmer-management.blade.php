@@ -100,7 +100,7 @@
 											</div>
 										</div>
                                         <div class="form-group row">
-											<label class="col-form-label col-md-3 col-sm-3 ">Date Of Birth <span class="required">*</span>
+											<label class="col-form-label col-md-3 col-sm-3 ">Date Of Harvest <span class="required">*</span>
 											</label>
 											<div class="col-md-9 col-sm-9 ">
 												<input class="date-picker form-control" placeholder="dd-mm-yyyy" type="text" required="required" type="text" onfocus="this.type='date'" onmouseover="this.type='date'" onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">
