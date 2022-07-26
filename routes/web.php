@@ -31,11 +31,14 @@ Route::get('/gallery', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index']);
+Route::get('/account-setting', [App\Http\Controllers\AccountController::class, 'index']);
+Route::get('/mapping-crop-setting', [App\Http\Controllers\CropMappingController::class, 'index']);
+Route::get('/import-zscore', [App\Http\Controllers\ZscoreController::class, 'index']);
 
 Route::middleware('auth')->group(function(){
     Route::get('/register', function(){
-        $barangays = Barangay::get();
+        $barangays = array('Barcelona','Bulan','Bulusan','Casiguran','Castilla','Donsol','Gubat','Irosin','Juban','Magallanes','Matnog','Pilar','Prieto Diaz','Santa Magdalena','Sorsogon City');
         return view('auth.register', compact('barangays'));
     })->name('register');
 });

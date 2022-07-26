@@ -26,6 +26,22 @@
                         </div>
 
                         <div class="row mb-3">
+                            <label for="municipality" class="col-md-4 col-form-label text-md-end">{{ __('Municipality') }}</label>
+                            <div class="col-md-6" >
+                                <select class="form-control input w-full  border mr-2" name="municipality">
+                                    @foreach ($barangays as $barangay)
+                                        <option value="{{$barangay}}">{{$barangay}}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+                                @error('barangay')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                        </div>
+
+                        <div class="row mb-3">
                             <label for="email" class="col-md-4 col-form-label text-md-end">{{ __('Email Address') }}</label>
 
                             <div class="col-md-6">
@@ -52,6 +68,8 @@
                                 @enderror
                             </div>
                         </div>
+
+                        
 
                         <div class="row mb-3">
                             <label for="password-confirm" class="col-md-4 col-form-label text-md-end">{{ __('Confirm Password') }}</label>
