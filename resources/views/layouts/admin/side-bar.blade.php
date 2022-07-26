@@ -8,7 +8,7 @@
         
         <li><a><i class="fa fa-users"></i> DSP Management <span class="fa fa-chevron-down"></span></a>
             <ul class="nav child_menu">
-                <li><a href="#">Ongoing Projects</a></li>
+                <li><a href="{{url('/dps-ongoing')}}">Ongoing Projects</a></li>
                 <li><a href="#">Completed Projects</a></li>
             </ul>
         </li>

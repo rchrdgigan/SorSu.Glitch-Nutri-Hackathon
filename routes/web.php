@@ -36,6 +36,11 @@ Route::get('/account-setting', [App\Http\Controllers\AccountController::class, '
 Route::get('/mapping-crop-setting', [App\Http\Controllers\CropMappingController::class, 'index']);
 Route::get('/import-zscore', [App\Http\Controllers\ZscoreController::class, 'index']);
 
+Route::get('/dps-ongoing', [App\Http\Controllers\DspController::class, 'index'])->name('dsp.view');
+Route::post('/create/dsp',[App\Http\Controllers\DspController::class, 'create'])->name('dps.create');
+Route::get('/edit/dsp/{id}',[App\Http\Controllers\DspController::class, 'edit'])->name('dps.edit');
+Route::put('/udpate/dsp/{id}',[App\Http\Controllers\DspController::class, 'update'])->name('dps.update');
+
 Route::middleware('auth')->group(function(){
     Route::get('/register', function(){
         $barangays = array('Barcelona','Bulan','Bulusan','Casiguran','Castilla','Donsol','Gubat','Irosin','Juban','Magallanes','Matnog','Pilar','Prieto Diaz','Santa Magdalena','Sorsogon City');
