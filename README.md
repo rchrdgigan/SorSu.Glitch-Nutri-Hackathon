@@ -111,7 +111,7 @@ php artisan migrate --seed
 > Note! if you already migrate the database and you want to re-migrate cause you have changes in database then try this command, it will drop all database tables regardless of their prefix.
 
 ```bash
-php artisan migrate --seed
+php artisan migrate:fresh --seed
 ```
 
 
