@@ -7,7 +7,7 @@
     <div class="">
         <div class="page-title">
             <div class="title_left">
-            <h3><small>Ongoing Program</small></h3>
+            <h3><small>Ongoing Projects</small></h3>
             </div>
 
             <div class="title_right">
@@ -46,8 +46,7 @@
                                     
                                     <div class="x_content">
                                         <br />
-                                        <form class="form-label-left input_mask">
-                
+                                        
                                             <div class="form-group row">
                                                     <label class="col-form-label col-md-3 col-sm-3 ">Description : 
                                                     </label>
@@ -68,14 +67,13 @@
                                             
                                             <div class="ln_solid"></div>
                                             <div class="form-group row">
-                                                <div class="col-md-9 col-sm-9  offset-md-3">
+                                                <div class="ml-auto">
                                                     <a href="{{route('dps.edit',$data->id)}}" class="btn btn-success"><i class="fa fa-pencil" aria-hidden="true"></i></a>
-                                                    <button type="submit" class="btn btn-primary"><i class="fa fa-archive" aria-hidden="true"></i></button>
-                                                    <button type="submit" class="btn btn-success"><i class="fa fa-check" aria-hidden="true"></i></button>
+                                                    <a href="{{route('dspstatus.update',['id'=>$data->id,'status'=>'archive'])}}" class="btn btn-primary"><i class="fa fa-archive" aria-hidden="true"></i></a>
+                                                    <a href="{{route('dspstatus.update',['id'=>$data->id,'status'=>'completed'])}}" class="btn btn-success"><i class="fa fa-check" aria-hidden="true"></i></a>
                                                 </div>
                                             </div>
 
-                                        </form>
                                     </div>
                                 </div>
                 

@@ -9,21 +9,12 @@ use Illuminate\Http\Request;
 
 class DspController extends Controller
 {
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
+
     public function __construct()
     {
         $this->middleware('auth');
     }
 
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function index()
     {
         $dsp = Dps::with('cover_municipality')->where('status', 'ongoing')->get();
@@ -37,14 +28,41 @@ class DspController extends Controller
 
         $municipalities = Municipality::get();
 
-        return view('admin.ongoing-dsp', compact('municipalities','dsp'));
+        return view('admin.dsp.ongoing-dsp', compact('municipalities','dsp'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+    public function viewArchive()
+    {
+        $dsp = Dps::with('cover_municipality')->where('status', 'archive')->get();
+        $dsp->map(function($item_project){  
+            $covered_project = $item_project->cover_municipality;
+            $covered_project->map(function($list){
+                $municipality_data = Municipality::findorfail($list->municipality_id);
+                $list->municipality = $municipality_data->municipality;
+            });
+        });
+
+        $municipalities = Municipality::get();
+
+        return view('admin.dsp.archive-dsp', compact('municipalities','dsp'));
+    }
+
+    public function viewComplete()
+    {
+        $dsp = Dps::with('cover_municipality')->where('status', 'completed')->get();
+        $dsp->map(function($item_project){  
+            $covered_project = $item_project->cover_municipality;
+            $covered_project->map(function($list){
+                $municipality_data = Municipality::findorfail($list->municipality_id);
+                $list->municipality = $municipality_data->municipality;
+            });
+        });
+
+        $municipalities = Municipality::get();
+
+        return view('admin.dsp.complete-dsp', compact('municipalities','dsp'));
+    }
+ 
     public function create( DpsRequest $request )
     {
         $validated = $request->validated();
@@ -99,7 +117,7 @@ class DspController extends Controller
         $dsp = Dps::findOrFail($id);
 
         $municipalities = Municipality::get();
-        return view('admin.edit-ongoing-dsp', compact('municipalities','dsp'));
+        return view('admin.dsp.edit-ongoing-dsp', compact('municipalities','dsp'));
     }
 
     /**
@@ -131,6 +149,16 @@ class DspController extends Controller
        
         return redirect()->route('dsp.view')->with('message', 'Successfull Updated!');
     }
+
+    public function updateStatus($id,$status)
+    {
+        $_valdsp = Dps::findOrFail($id);
+        $_valdsp->status = $status;
+        $_valdsp->update();
+
+        return redirect()->route('dsp.view')->with('message', 'Status Updated!');
+    }
+
 
     /**
      * Remove the specified resource from storage.
