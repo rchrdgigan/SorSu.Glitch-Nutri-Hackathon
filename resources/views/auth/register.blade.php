@@ -30,7 +30,7 @@
                             <div class="col-md-6" >
                                 <select class="form-control input w-full  border mr-2" name="municipality">
                                     @foreach ($barangays as $barangay)
-                                        <option value="{{$barangay}}">{{$barangay}}</option>
+                                        <option value="{{$barangay}}">{{$barangay->municipality}}</option>
                                     @endforeach
                                 </select>
                             </div>

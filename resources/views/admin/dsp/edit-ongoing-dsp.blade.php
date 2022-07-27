@@ -59,7 +59,7 @@
                 </div>
             </div>
             <div class="card-footer">
-                <button type="button" class="btn btn-secondary">Back</button>
+                <a href="{{route('dsp.view')}}" type="button" class="btn btn-secondary text-white">Back</a>
                 <button type="submit" class="btn btn-primary">Update</button>
             </div>
         </form>
