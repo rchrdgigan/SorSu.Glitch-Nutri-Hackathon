@@ -1,0 +1,83 @@
+@extends('layouts.admin')
+@push('custom-link')
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
+@endpush
+@section('content')
+<div class="right_col" role="main">
+    <div class="">
+        <div class="page-title">
+            <div class="title_left">
+            <h3><small>Completed Projects</small></h3>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+        @if(session('message'))
+            <div class="alert alert-success alert-dismissible">
+                {{ session('message') }}
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        @endif
+        <div class="main">
+            <div class="main-content">
+                <div class="row pb-4">
+                @foreach($dsp as $data)
+                        <div class="col-md-4">
+                                <div class="x_panel">
+
+                                    <div class="x_title">
+                                        <h2>{{$data->title}}</h2>
+                                        <ul class="nav navbar-right panel_toolbox">
+                                            <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                            </li>
+                                            <li><a class="close-link"><i class="fa fa-close"></i></a>
+                                            </li>
+                                        </ul>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    
+                                    <div class="x_content">
+                                        <br />
+                                        
+                                            <div class="form-group row">
+                                                    <label class="col-form-label col-md-3 col-sm-3 ">Description : 
+                                                    </label>
+                                                <div class="col-md-9 col-sm-9 ">
+                                                    <label class="col-form-label">{{$data->description}}
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-form-label col-md-3 col-sm-3 ">Covered Municipality :</label>
+                                                <div class="col-md-9 col-sm-9 ">
+                                                    @foreach($data->cover_municipality as $sub_data)
+                                                    <label class="col-form-label"> {{$sub_data->municipality}} |
+                                                    </label>
+                                                    @endforeach
+                                                </div>
+                                            </div>
+
+                                    </div>
+                                </div>
+                
+                            
+                        </div>
+                @endforeach
+                </div>
+
+             </div>
+        </div>
+    </div>
+</div>
+</div>
+
+@endsection
+
+@push('custom-scripts')
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+<script>
+$('select').selectpicker();
+</script>
+@endpush

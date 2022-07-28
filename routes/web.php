@@ -31,10 +31,11 @@ Route::get('/gallery', function () {
 })->name('gallery');
 
 Auth::routes();
-
+//Provicical auth
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index']);
+
+
 Route::get('/account-setting', [App\Http\Controllers\AccountController::class, 'index']);
-Route::get('/mapping-crop-setting', [App\Http\Controllers\CropMappingController::class, 'index']);
 Route::get('/import-zscore', [App\Http\Controllers\ZscoreController::class, 'index']);
 
 Route::get('/dps/ongoing', [App\Http\Controllers\DspController::class, 'index'])->name('dsp.view');
@@ -44,6 +45,16 @@ Route::post('/create/dsp',[App\Http\Controllers\DspController::class, 'create'])
 Route::get('/edit/dsp/{id}',[App\Http\Controllers\DspController::class, 'edit'])->name('dps.edit');
 Route::put('/udpate/dsp/{id}',[App\Http\Controllers\DspController::class, 'update'])->name('dps.update');
 Route::get('/udpate/status/dsp/{id}/{status}',[App\Http\Controllers\DspController::class, 'updateStatus'])->name('dspstatus.update');
+
+Route::get('/farmer/management', [App\Http\Controllers\FarmerController::class, 'index'])->name('farmer.view');
+Route::post('/farmer/create', [App\Http\Controllers\FarmerController::class, 'create'])->name('farmer.create');
+Route::get('/farmer/edit/{id}', [App\Http\Controllers\FarmerController::class, 'edit'])->name('farmer.edit');
+Route::put('/farmer/update/{farm_id}/{product_id}',[App\Http\Controllers\FarmerController::class, 'update'])->name('farmer.update');
+
+Route::get('/municipality', [App\Http\Controllers\MunicipalityController::class, 'index'])->name('municipality.view');
+Route::get('/municipality/health/monitoring',[App\Http\Controllers\ClientHealthController::class, 'index'])->name('health.view');
+Route::get('/municipality/dps/ongoing', [App\Http\Controllers\ClienDspController::class, 'index'])->name('municipaldsp.view');
+Route::get('/municipality/farmer', [App\Http\Controllers\MunicipalFarmerController::class, 'index'])->name('municipalfarmer.view');
 
 Route::middleware('auth')->group(function(){
     Route::get('/register', function(){

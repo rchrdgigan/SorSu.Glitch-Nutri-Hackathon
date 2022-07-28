@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class CropMappingController extends Controller
+class MunicipalityController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +13,7 @@ class CropMappingController extends Controller
      */
     public function index()
     {
-        return view('admin.farmer-management');
+        return view('municipality.index');
     }
 
     /**

@@ -14,16 +14,13 @@
             </ul>
         </li>
         <li>
-            <a href="{{url('/mapping-crop-setting')}}"><i class="fa fa-list-alt"></i> Farmers Market</a>
+            <a href="{{url('/farmer/management')}}"><i class="fa fa-list-alt"></i> Farmers Market</a>
         </li>
         <li>
             <a href="{{url('/account-setting')}}"><i class="fa fa-users"></i> Account Management</a>
         </li>
         <li>
             <a href="{{url('/register')}}"><i class="fa fa-users"></i> Register Account</a>
-        </li>
-        <li>
-            <a href="{{url('/import-zscore')}}"><i class="fa fa-upload"></i> Import Z-Score Collection</a>
         </li>
     </div>
 
