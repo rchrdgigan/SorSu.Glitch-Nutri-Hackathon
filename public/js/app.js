@@ -20,3 +20,8 @@ let bulusan = [12.754213, 124.129723];
 L.marker(bulusan).addTo(map)
 .bindPopup('<h2>Municipality Bulusan</h2><a href="#kamote">Root Crops (20)</a><br><a href="#karots">Vegetable (40)</a>')
 .openPopup();
+
+let provicial = [12.970435, 124.004532];
+L.marker(provicial).addTo(map)
+.bindPopup('<h2>Municipality Sorosogon</h2><a href="#kamote">Root Crops (20)</a><br><a href="#karots">Vegetable (40)</a><br><a href="#karots">Fruits (20)</a>')
+.openPopup();

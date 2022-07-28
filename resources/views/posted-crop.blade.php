@@ -42,9 +42,6 @@
                                 <li>
                                     <a class="nav-link active" href="#grid-view" data-toggle="tab"> <i class="fa fa-th"></i> </a>
                                 </li>
-                                <li>
-                                    <a class="nav-link" href="#list-view" data-toggle="tab"> <i class="fa fa-list-ul"></i> </a>
-                                </li>
                             </ul>
                         </div>
                     </div>
@@ -59,7 +56,7 @@
                                                 <div class="type-lb">
                                                     <p class="sale">Sale</p>
                                                 </div>
-                                                <img src="{{ asset('vendor/images/img-pro-01.jpg') }}" class="img-fluid" alt="Image">
+                                                <img src="{{ asset('img/vegetables.jpg') }}" class="img-fluid" alt="Image">
                                                 <div class="mask-icon">
                                                     <ul>
                                                         <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -68,8 +65,8 @@
                                                 </div>
                                             </div>
                                             <div class="why-text">
-                                                <h4>Lorem ipsum dolor sit amet</h4>
-                                                <h5>P 500.40</h5>
+                                                <h4>Cabage</h4>
+                                                <h5>P 500.40 / Per Sacks</h5>
                                             </div>
                                         </div>
                                     </div>
@@ -79,7 +76,7 @@
                                                 <div class="type-lb">
                                                     <p class="new">New</p>
                                                 </div>
-                                                <img src="{{ asset('vendor/images/img-pro-02.jpg') }}" class="img-fluid" alt="Image">
+                                                <img src="{{ asset('img/rootcrops.jpg') }}" class="img-fluid" alt="Image">
                                                 <div class="mask-icon">
                                                     <ul>
                                                         <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -88,8 +85,8 @@
                                                 </div>
                                             </div>
                                             <div class="why-text">
-                                                <h4>Lorem ipsum dolor sit amet</h4>
-                                                <h5>P 550.40</h5>
+                                                <h4>Sweet Potato</h4>
+                                                <h5>P 550.40 / Per Sacks</h5>
                                             </div>
                                         </div>
                                     </div>
@@ -99,7 +96,7 @@
                                                 <div class="type-lb">
                                                     <p class="sale">Sale</p>
                                                 </div>
-                                                <img src="{{ asset('vendor/images/img-pro-03.jpg') }}" class="img-fluid" alt="Image">
+                                                <img src="{{ asset('img/vegetables.jpg') }}" class="img-fluid" alt="Image">
                                                 <div class="mask-icon">
                                                     <ul>
                                                         <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -108,8 +105,8 @@
                                                 </div>
                                             </div>
                                             <div class="why-text">
-                                                <h4>Lorem ipsum dolor sit amet</h4>
-                                                <h5>P 630.00</h5>
+                                                <h4>Cabage</h4>
+                                                <h5>P 630.00 / Per Sacks</h5>
                                             </div>
                                         </div>
                                     </div>
@@ -119,7 +116,7 @@
                                                 <div class="type-lb">
                                                     <p class="new">New</p>
                                                 </div>
-                                                <img src="{{ asset('vendor/images/img-pro-01.jpg') }}" class="img-fluid" alt="Image">
+                                                <img src="{{ asset('img/rootcrops.jpg') }}" class="img-fluid" alt="Image">
                                                 <div class="mask-icon">
                                                         <ul>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -128,8 +125,8 @@
                                                     </div>
                                             </div>
                                             <div class="why-text">
-                                                <h4>Lorem ipsum dolor sit amet</h4>
-                                                <h5>P 550.40</h5>
+                                                <h4>Carots</h4>
+                                                <h5>P 550.40 / Per Sacks</h5>
                                             </div>
                                         </div>
                                     </div>
@@ -139,7 +136,7 @@
                                                 <div class="type-lb">
                                                     <p class="sale">Sale</p>
                                                 </div>
-                                                <img src="{{ asset('vendor/images/img-pro-02.jpg') }}" class="img-fluid" alt="Image">
+                                                <img src="{{ asset('img/fruits.jpg') }}" class="img-fluid" alt="Image">
                                                 <div class="mask-icon">
                                                     <ul>
                                                         <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -148,8 +145,8 @@
                                                 </div>
                                             </div>
                                             <div class="why-text">
-                                                <h4>Lorem ipsum dolor sit amet</h4>
-                                                <h5>P 500.40</h5>
+                                                <h4>Mango</h4>
+                                                <h5>P 500.40 / Per Sacks</h5>
                                             </div>
                                         </div>
                                     </div>
@@ -159,7 +156,7 @@
                                                 <div class="type-lb">
                                                     <p class="sale">Sale</p>
                                                 </div>
-                                                <img src="{{ asset('vendor/images/img-pro-03.jpg') }}" class="img-fluid" alt="Image">
+                                                <img src="{{ asset('img/vegetables.jpg') }}" class="img-fluid" alt="Image">
                                                 <div class="mask-icon">
                                                     <ul>
                                                         <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -168,8 +165,8 @@
                                                 </div>
                                             </div>
                                             <div class="why-text">
-                                                <h4>Lorem ipsum dolor sit amet</h4>
-                                                <h5>P 570.40</h5>
+                                                <h4>Cabage</h4>
+                                                <h5>P 570.40 / Per Sacks</h5>
                                             </div>
                                         </div>
                                     </div>
@@ -179,7 +176,7 @@
                                                 <div class="type-lb">
                                                     <p class="sale">Sale</p>
                                                 </div>
-                                                <img src="{{ asset('vendor/images/img-pro-01.jpg') }}" class="img-fluid" alt="Image">
+                                                <img src="{{ asset('img/rootcrops.jpg') }}" class="img-fluid" alt="Image">
                                                 <div class="mask-icon">
                                                     <ul>
                                                         <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -188,8 +185,8 @@
                                                 </div>
                                             </div>
                                             <div class="why-text">
-                                                <h4>Lorem ipsum dolor sit amet</h4>
-                                                <h5>P 510.40</h5>
+                                                <h4>Sweet Potato</h4>
+                                                <h5>P 510.40 / Per Sacks</h5>
                                             </div>
                                         </div>
                                     </div>
@@ -199,7 +196,7 @@
                                                 <div class="type-lb">
                                                     <p class="sale">Sale</p>
                                                 </div>
-                                                <img src="{{ asset('vendor/images/img-pro-02.jpg') }}" class="img-fluid" alt="Image">
+                                                <img src="{{ asset('img/vegetables.jpg') }}" class="img-fluid" alt="Image">
                                                 <div class="mask-icon">
                                                     <ul>
                                                         <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -209,7 +206,7 @@
                                             </div>
                                             <div class="why-text">
                                                 <h4>Lorem ipsum dolor sit amet</h4>
-                                                <h5> P 520.40</h5>
+                                                <h5> P 520.40 / Per Sacks</h5>
                                             </div>
                                         </div>
                                     </div>
@@ -219,7 +216,7 @@
                                                 <div class="type-lb">
                                                     <p class="new">New</p>
                                                 </div>
-                                                <img src="{{ asset('vendor/images/img-pro-03.jpg') }}" class="img-fluid" alt="Image">
+                                                <img src="{{ asset('img/fruits.jpg') }}" class="img-fluid" alt="Image">
                                                 <div class="mask-icon">
                                                     <ul>
                                                         <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -229,96 +226,7 @@
                                             </div>
                                             <div class="why-text">
                                                 <h4>Lorem ipsum dolor sit amet</h4>
-                                                <h5> P 530.40</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div role="tabpanel" class="tab-pane fade" id="list-view">
-                                <div class="list-view-box">
-                                    <div class="row">
-                                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                                            <div class="products-single fix">
-                                                <div class="box-img-hover">
-                                                    <div class="type-lb">
-                                                        <p class="new">New</p>
-                                                    </div>
-                                                    <img src="{{ asset('vendor/images/img-pro-01.jpg') }}" class="img-fluid" alt="Image">
-                                                   <div class="mask-icon">
-                                                        <ul>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Contact"><i class="fas fa-phone"></i></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
-                                            <div class="why-text full-width">
-                                                <h4>Lorem ipsum dolor sit amet</h4>
-                                                <h5> <del>P 600.40</del> P 500.40</h5>
-                                                <p>Integer tincidunt aliquet nibh vitae dictum. In turpis sapien, imperdiet quis magna nec, iaculis ultrices ante. Integer vitae suscipit nisi. Morbi dignissim risus sit amet orci porta, eget aliquam purus
-                                                    sollicitudin. Cras eu metus felis. Sed arcu arcu, sagittis in blandit eu, imperdiet sit amet eros. Donec accumsan nisi purus, quis euismod ex volutpat in. Vestibulum eleifend eros ac lobortis aliquet.
-                                                    Suspendisse at ipsum vel lacus vehicula blandit et sollicitudin quam. Praesent vulputate semper libero pulvinar consequat. Etiam ut placerat lectus.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="list-view-box">
-                                    <div class="row">
-                                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                                            <div class="products-single fix">
-                                                <div class="box-img-hover">
-                                                    <div class="type-lb">
-                                                        <p class="sale">Sale</p>
-                                                    </div>
-                                                    <img src="{{ asset('vendor/images/img-pro-02.jpg') }}" class="img-fluid" alt="Image">
-                                                    <div class="mask-icon">
-                                                        <ul>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Contact"><i class="fas fa-phone"></i></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
-                                            <div class="why-text full-width">
-                                                <h4>Lorem ipsum dolor sit amet</h4>
-                                                <h5> <del>P 590.40</del> P 500.40</h5>
-                                                <p>Integer tincidunt aliquet nibh vitae dictum. In turpis sapien, imperdiet quis magna nec, iaculis ultrices ante. Integer vitae suscipit nisi. Morbi dignissim risus sit amet orci porta, eget aliquam purus
-                                                    sollicitudin. Cras eu metus felis. Sed arcu arcu, sagittis in blandit eu, imperdiet sit amet eros. Donec accumsan nisi purus, quis euismod ex volutpat in. Vestibulum eleifend eros ac lobortis aliquet.
-                                                    Suspendisse at ipsum vel lacus vehicula blandit et sollicitudin quam. Praesent vulputate semper libero pulvinar consequat. Etiam ut placerat lectus.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="list-view-box">
-                                    <div class="row">
-                                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                                            <div class="products-single fix">
-                                                <div class="box-img-hover">
-                                                    <div class="type-lb">
-                                                        <p class="sale">Sale</p>
-                                                    </div>
-                                                    <img src="{{ asset('vendor/images/img-pro-03.jpg') }}" class="img-fluid" alt="Image">
-                                                   <div class="mask-icon">
-                                                        <ul>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Contact"><i class="fas fa-phone"></i></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
-                                            <div class="why-text full-width">
-                                                <h4>Lorem ipsum dolor sit amet</h4>
-                                                <h5> <del>P 502.40</del> P 500.40</h5>
-                                                <p>Integer tincidunt aliquet nibh vitae dictum. In turpis sapien, imperdiet quis magna nec, iaculis ultrices ante. Integer vitae suscipit nisi. Morbi dignissim risus sit amet orci porta, eget aliquam purus
-                                                    sollicitudin. Cras eu metus felis. Sed arcu arcu, sagittis in blandit eu, imperdiet sit amet eros. Donec accumsan nisi purus, quis euismod ex volutpat in. Vestibulum eleifend eros ac lobortis aliquet.
-                                                    Suspendisse at ipsum vel lacus vehicula blandit et sollicitudin quam. Praesent vulputate semper libero pulvinar consequat. Etiam ut placerat lectus.</p>
+                                                <h5> P 530.40 / Per Sack</h5>
                                             </div>
                                         </div>
                                     </div>
@@ -342,27 +250,23 @@
                         </div>
                         <div class="list-group list-group-collapse list-group-sm list-group-tree" id="list-group-men" data-children=".sub-men">
                             <div class="list-group-collapse sub-men">
-                                <a class="list-group-item list-group-item-action" href="#sub-men1" data-toggle="collapse" aria-expanded="true" aria-controls="sub-men1">Fruits & Drinks <small class="text-muted">(100)</small>
+                                <a class="list-group-item list-group-item-action" href="#sub-men1" data-toggle="collapse" aria-expanded="true" aria-controls="sub-men1">Fruits <small class="text-muted">(5)</small>
                             </a>
                                 <div class="collapse show" id="sub-men1" data-parent="#list-group-men">
                                     <div class="list-group">
-                                        <a href="#" class="list-group-item list-group-item-action active">Fruits 1 <small class="text-muted">(50)</small></a>
-                                        <a href="#" class="list-group-item list-group-item-action">Fruits 2 <small class="text-muted">(10)</small></a>
-                                        <a href="#" class="list-group-item list-group-item-action">Fruits 3 <small class="text-muted">(10)</small></a>
-                                        <a href="#" class="list-group-item list-group-item-action">Fruits 4 <small class="text-muted">(10)</small></a>
-                                        <a href="#" class="list-group-item list-group-item-action">Fruits 5 <small class="text-muted">(20)</small></a>
+                                        <a href="#" class="list-group-item list-group-item-action active">Apple <small class="text-muted">(2)</small></a>
+                                        <a href="#" class="list-group-item list-group-item-action active">Mango <small class="text-muted">(3)</small></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="list-group-collapse sub-men">
                                 <a class="list-group-item list-group-item-action" href="#sub-men2" data-toggle="collapse" aria-expanded="false" aria-controls="sub-men2">Vegetables 
-                            <small class="text-muted">(50)</small>
+                            <small class="text-muted">(10)</small>
                             </a>
                                 <div class="collapse" id="sub-men2" data-parent="#list-group-men">
                                     <div class="list-group">
-                                        <a href="#" class="list-group-item list-group-item-action">Vegetables 1 <small class="text-muted">(10)</small></a>
-                                        <a href="#" class="list-group-item list-group-item-action">Vegetables 2 <small class="text-muted">(20)</small></a>
-                                        <a href="#" class="list-group-item list-group-item-action">Vegetables 3 <small class="text-muted">(20)</small></a>
+                                        <a href="#" class="list-group-item list-group-item-action">Carots <small class="text-muted">(6)</small></a>
+                                        <a href="#" class="list-group-item list-group-item-action">Vegetables <small class="text-muted">(4)</small></a>
                                     </div>
                                 </div>
                             </div>

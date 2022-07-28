@@ -16,8 +16,7 @@
                 <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
                     <li class="nav-item {{(request()->route()->getName()=='home')?'active':''}}"><a class="nav-link" href="{{url('/')}}">Home</a></li>
                     <li class="nav-item {{(request()->route()->getName()=='about')?'active':''}}"><a class="nav-link" href="{{url('/about')}}">About Us</a></li>
-                    <li class="nav-item {{(request()->route()->getName()=='posted')?'active':''}}"><a class="nav-link" href="{{url('/posted-crops')}}">Posted Crops</a></li>
-                    <li class="nav-item {{(request()->route()->getName()=='gallery')?'active':''}}"><a class="nav-link" href="{{url('/gallery')}}">Gallery</a></li>
+                    <li class="nav-item {{(request()->route()->getName()=='posted')?'active':''}}"><a class="nav-link" href="{{url('/posted-crops')}}">Produce Available</a></li>
                     <li class="nav-item {{(request()->route()->getName()=='contact')?'active':''}}"><a class="nav-link" href="{{url('/contact')}}">Contact Us</a></li>
                 </ul>
             </div>
